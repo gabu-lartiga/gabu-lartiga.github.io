@@ -11,36 +11,41 @@
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
 }
-/*Desktop*/
-@media (min-width: 1200px){
+
+@media (min-width: 64em) {
 	h1 {
-		font-size: 3.5em; /*40px;*/
+		font-size: 5em; 
 	}
 	h2 {
-	 	font-size: 2.1em; /*30px;*/
+	 	font-size: 2.1em; 
 	 	font-weight: 400;
 	 	color: #A7A7A7;
 	}
 	h3 {
-		font-size: 1.4em; /*25px;*/
+		font-size: 1.4em; 
 		font-weight: 300;	
 	}
 	h4 {
-		font-size: 1.1em; /*20px;*/
+		font-size: 1.1em; 
 		font-weight: 400;
 		color: #A7A7A7;
 	}
 	p {
-		font-size: 0.9em; /*15px;*/
+		font-size: 0.9em; 
 		font-weight: 400;
 	}
 }
-/*Tablet*/
-@media (min-width: 768px) and (max-width: 979px){}
-/*Phablet*/
-@media (max-width: 767px){}
-/*Cellphone*/
-@media (max-width: 480px){
+@media (min-width: 48em) {
+	h1 {
+		font-size: 4em; 
+	}
+}
+@media (min-width: 36em) {
+	h1 {
+		font-size: 3.5em;
+	}
+}
+@media (min-width: 30px){
 	.logo{
 		display: none;
 	}
@@ -48,20 +53,9 @@
 		width: 100%;
 	}
 	h1 {
-		font-size: 2em;
+		font-size: 3.25em;
 	}
-	h2 {
-		font-size: 1.2em;
-	}
-	h3 {
-		font-size: 0.8em;
-	}
-	h4 {
-		font-size: 0.6em;
-	}
-	p {
-		font-size: 0.5em;
-	}
+	
 } 
 
 /* Containers */
