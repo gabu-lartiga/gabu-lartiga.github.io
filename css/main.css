@@ -11,50 +11,58 @@
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
 }
- @media (max-width: 500px){
- 	.logo{
- 		display: none;
- 	}
- 	div.title {
- 		width: 100%;
- 	}
- 	h1 {
- 		font-size: 2em;
- 	}
- 	h2 {
- 		font-size: 1.2em;
- 	}
- 	h3 {
- 		font-size: 0.8em;
- 	}
- 	h4 {
- 		font-size: 0.6em;
- 	}
- 	p {
- 		font-size: 0.5em;
- 	}
+/*Desktop*/
+@media (min-width: 1200px){
+	h1 {
+		font-size: 3.5em; /*40px;*/
+	}
+	h2 {
+	 	font-size: 2.1em; /*30px;*/
+	 	font-weight: 400;
+	 	color: #A7A7A7;
+	}
+	h3 {
+		font-size: 1.4em; /*25px;*/
+		font-weight: 300;	
+	}
+	h4 {
+		font-size: 1.1em; /*20px;*/
+		font-weight: 400;
+		color: #A7A7A7;
+	}
+	p {
+		font-size: 0.9em; /*15px;*/
+		font-weight: 400;
+	}
+}
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 979px){}
+/*Phablet*/
+@media (max-width: 767px){}
+/*Cellphone*/
+@media (max-width: 480px){
+	.logo{
+		display: none;
+	}
+	div.title {
+		width: 100%;
+	}
+	h1 {
+		font-size: 2em;
+	}
+	h2 {
+		font-size: 1.2em;
+	}
+	h3 {
+		font-size: 0.8em;
+	}
+	h4 {
+		font-size: 0.6em;
+	}
+	p {
+		font-size: 0.5em;
+	}
 } 
-h1 {
-	font-size: 3.5em; /*40px;*/
-}
-h2 {
- 	font-size: 2.5em; /*30px;*/
- 	font-weight: 400;
- 	color: #A7A7A7;
-}
-h3 {
-	font-size: 2em; /*25px;*/
-	font-weight: 300;	
-}
-h4 {
-	font-size: 1.5em; /*20px;*/
-	font-weight: 400;
-	color: #A7A7A7;
-}
-p {
-	font-size: 1em; /*15px;*/
-	font-weight: 400;
-}
 
 /* Containers */
 .row {
@@ -113,7 +121,4 @@ img.works {
 .title {
 	text-align: right;
 	text-transform: uppercase;
-}
-section.works {
-	background-color: #226065;
 }
