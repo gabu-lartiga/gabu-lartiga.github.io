@@ -20,24 +20,24 @@
  	}
 } 
 h1 {
-	font-size: 250%; /*40px;*/
+	font-size: 1.5em; /*40px;*/
 }
 h2 {
- 	font-size: 180%; /*30px;*/
+ 	font-size: 1em; /*30px;*/
  	font-weight: 400;
  	color: #A7A7A7;
 }
 h3 {
-	font-size: 150%; /*25px;*/
+	font-size: 0.5em; /*25px;*/
 	font-weight: 300;	
 }
 h4 {
-	font-size: 120%; /*20px;*/
+	font-size: 0.3em; /*20px;*/
 	font-weight: 400;
 	color: #A7A7A7;
 }
 p {
-	font-size: 100%; /*15px;*/
+	font-size: 0.25em; /*15px;*/
 	font-weight: 400;
 }
 
