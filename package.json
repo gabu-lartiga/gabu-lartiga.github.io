@@ -1,0 +1,24 @@
+{
+  "name": "gabuchin.github.io",
+  "version": "1.0.0",
+  "description": "Gabriela Lártiga Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabuchin/gabuchin.github.io.git"
+  },
+  "keywords": [
+    "portfolio",
+    "lártiga",
+    "front-end"
+  ],
+  "author": "Gabuchin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabuchin/gabuchin.github.io/issues"
+  },
+  "homepage": "https://github.com/gabuchin/gabuchin.github.io#readme"
+}
