@@ -136,6 +136,12 @@ hr {			/* Taken from http://codepen.io/ibrahimjabbari/pen/ozinB*/
 		font-weight: 700;
 		color: #A7A7A7;
 	}
+	div.no-description {
+		width: 5%;
+	}
+	div.description {
+		width: 90%;
+	}
 	div.works {
 		width: 50%;
 	}
