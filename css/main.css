@@ -130,6 +130,11 @@ hr {			/* Taken from http://codepen.io/ibrahimjabbari/pen/ozinB*/
 @media  (min-width: 30em) { 
 	h1 {
 		font-size: 3em;
+		font-weight: 700;
+	}
+	h2, h4 {
+		font-weight: 700;
+		color: #A7A7A7;
 	}
 	div.works {
 		width: 50%;
@@ -139,6 +144,11 @@ hr {			/* Taken from http://codepen.io/ibrahimjabbari/pen/ozinB*/
 @media  (min-width: 48em){ 
 	h1 {
 		font-size: 3.5em;
+		font-weight: 700;
+	}
+	h2, h4 {
+		font-weight: 700;
+		color: #A7A7A7;
 	}
 	div.no-description {
 		width: 10%;
