@@ -6,7 +6,6 @@
 	margin-left: 0;
 	margin-right: 0;
 	position: relative;
-	/*border: 1px solid red;*/
 }
 * {
 	-webkit-box-sizing: border-box;
@@ -67,12 +66,8 @@ img.works {
 	padding: 1.5%;
 	border-radius: 30%;
 }
-img.principal {
+img.profile {
 	border-radius: 50%;
-}
-/**/
-div.description {
-	text-align: center;
 }
 h4.works {
 	margin-top: 0;
@@ -84,7 +79,6 @@ img, object, video {
 }
 p {
 	font-family: 'Open Sans', sans-serif;
-	text-align: center;
 }
 h1, h2, h3, h4 {
 	line-height: 60%;
