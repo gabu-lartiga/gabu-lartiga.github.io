@@ -73,6 +73,9 @@ img.principal {
 div.description {
 	text-align: center;
 }
+h4.works {
+	margin-top: 0;
+}
 
 /*TAG CUSTOMIZATION*/
 img, object, video {
