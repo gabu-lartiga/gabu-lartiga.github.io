@@ -13,87 +13,6 @@
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
 }
-	h1 {
-		font-size: 5em;
-		font-weight: 700; 
-	}
-	h2 {
-	 	font-size: 3.5em; 
-	 	font-weight: 700;
-	 	color: #A7A7A7;
-	}
-	h3 {
-		font-size: 3em; 
-		font-weight: 400;	
-	}
-	h4 {
-		font-size: 2em; 
-		font-weight: 700;
-		color: #A7A7A7;
-	}
-	p {
-		font-size: 1.5em; 
-		font-weight: 400;
-		letter-spacing: 0.05em;
-	}
-@media (min-width: 64em) {
-
-	h1 {
-		font-size: 5em;
-		font-weight: 700; 
-	}
-	h2 {
-	 	font-size: 3.5em; 
-	 	font-weight: 700;
-	 	color: #A7A7A7;
-	}
-	h3 {
-		font-size: 3em; 
-		font-weight: 400;	
-	}
-	h4 {
-		font-size: 2em; 
-		font-weight: 700;
-		color: #A7A7A7;
-	}
-	p {
-		font-size: 1.5em; 
-		font-weight: 400;
-		letter-spacing: 0.05em;
-	}
-}
-@media (max-width: 64em){ 
-	h1 {
-		font-size: 4em; 
-	}
-}
-@media  (max-width: 48em){ 
-	
-	h1 {
-		font-size: 3.4em;
-	}
-}
-@media  (max-width: 36em) { 
-	
-	h1 {
-		font-size: 3.25em;
-	}	
-} 
-@media  (max-width: 30em) { 
-	div.no-description {
-		width: 0%;
-	}
-	div.description {
-		width: 100%;
-	}
-	h1 {
-		font-size: 3em;
-	}
-	h4 {
-		font-size: 1.5em;
-	}
-}
-
 
 /* Containers */
 .row {
@@ -137,22 +56,11 @@
 .col-12 {
 	width: 100%;
 }
+
+/*MY CLASSES*/
 .title {
 	text-align: center;
 	text-transform: uppercase;
-}
-p {
-	font-family: 'Open Sans', sans-serif;
-}
-
-/*IMAGE CUSTOMIZATION*/
-img {
-	max-width: 100%;
-	max-height: 100%;
-}
-img.logo {
-	max-width: 25%;
-	padding-right: 10%;
 }
 img.works {
 	padding: 1.5%;
@@ -161,7 +69,21 @@ img.works {
 img.principal {
 	border-radius: 50%;
 }
-h3.title:before{
+/**/
+div.description {
+	text-align: center;
+}
+
+/*TAG CUSTOMIZATION*/
+img, object, video {
+	max-width: 100%;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+h1, h2, h3, h4 {
+	line-height: 60%;
 }
 hr {			/* Taken from http://codepen.io/ibrahimjabbari/pen/ozinB*/
     border: 0; 
@@ -170,4 +92,83 @@ hr {			/* Taken from http://codepen.io/ibrahimjabbari/pen/ozinB*/
 	background-image: -moz-linear-gradient(left, #f0f0f0, #6a6a56, #f0f0f0);
 	background-image: -ms-linear-gradient(left, #f0f0f0, #6a6a56, #f0f0f0);
 	background-image: -o-linear-gradient(left, #f0f0f0, #6a6a56, #f0f0f0); 
+}
+
+/*MEDIA QUERIES*/
+/*Small Mobile Phones*/
+@media (min-width: 20em) {
+	p {
+		font-size: 1em;
+	}
+	h4 {
+		font-size: 1.2em;
+		font-weight: 700;
+	}
+	h3 {
+		font-size: 1.5em;
+	}
+	h2 {
+		font-size: 2em;
+		font-weight: 700;
+	}
+	h1 {
+		font-size: 2.5em;
+	}
+	div.works {
+		width: 100%;
+	}
+	div.no-description {
+		width: 0%;
+	}
+	div.description {
+		width: 100%;
+	}
+}
+/*Mobile Phones*/
+@media  (min-width: 30em) { 
+	h1 {
+		font-size: 3em;
+	}
+	div.works {
+		width: 50%;
+	}
+}
+/*Tablets*/
+@media  (min-width: 48em){ 
+	h1 {
+		font-size: 3.5em;
+	}
+	div.no-description {
+		width: 10%;
+	}
+	div.description {
+		width: 80%;
+	}
+	div.works {
+		width: 33.3%;
+	}
+}
+/*Desktop*/
+@media (min-width: 62em) {
+	h1 {
+		font-size: 5em;
+		font-weight: 700; 
+	}
+	h2 {
+	 	font-size: 3.5em; 
+	 	font-weight: 700;
+	 	color: #A7A7A7;
+	}
+	h3 {
+		font-size: 3em; 
+		}
+	h4 {
+		font-size: 2em; 
+		font-weight: 700;
+		color: #A7A7A7;
+	}
+	p {
+		font-size: 1.5em; 
+		letter-spacing: 0.05em;
+	}
 }
