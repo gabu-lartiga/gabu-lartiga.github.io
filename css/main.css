@@ -88,6 +88,12 @@ p {
 h1, h2, h3, h4 {
 	line-height: 60%;
 }
+h1,h2,h4 {
+	font-weight: 700;
+}
+h2,h3,h4 {
+	color: #A7A7A7;
+}
 hr {			/* Taken from http://codepen.io/ibrahimjabbari/pen/ozinB*/
     border: 0; 
 	height: 1px; 
@@ -105,20 +111,15 @@ hr {			/* Taken from http://codepen.io/ibrahimjabbari/pen/ozinB*/
 	}
 	h4 {
 		font-size: 1.5em;
-		font-weight: 700;
-		color: #A7A7A7;
 	}
 	h3 {
 		font-size: 1.5em;
 	}
 	h2 {
 		font-size: 2em;
-		font-weight: 700;
-		color: #A7A7A7;
 	}
 	h1 {
 		font-size: 2.5em;
-		font-weight: 700;
 	}
 	div.works {
 		width: 100%;
@@ -134,11 +135,6 @@ hr {			/* Taken from http://codepen.io/ibrahimjabbari/pen/ozinB*/
 @media  (min-width: 30em) { 
 	h1 {
 		font-size: 3em;
-		font-weight: 700;
-	}
-	h2, h4 {
-		font-weight: 700;
-		color: #A7A7A7;
 	}
 	div.no-description {
 		width: 5%;
@@ -154,11 +150,6 @@ hr {			/* Taken from http://codepen.io/ibrahimjabbari/pen/ozinB*/
 @media  (min-width: 48em){ 
 	h1 {
 		font-size: 3.5em;
-		font-weight: 700;
-	}
-	h2, h4 {
-		font-weight: 700;
-		color: #A7A7A7;
 	}
 	div.no-description {
 		width: 10%;
@@ -174,23 +165,17 @@ hr {			/* Taken from http://codepen.io/ibrahimjabbari/pen/ozinB*/
 @media (min-width: 62em) {
 	h1 {
 		font-size: 5em;
-		font-weight: 700; 
 	}
 	h2 {
 	 	font-size: 3.5em; 
-	 	font-weight: 700;
-	 	color: #A7A7A7;
 	}
 	h3 {
 		font-size: 3em; 
 		}
 	h4 {
 		font-size: 2em; 
-		font-weight: 700;
-		color: #A7A7A7;
 	}
 	p {
 		font-size: 1.5em; 
-		letter-spacing: 0.05em;
 	}
 }
