@@ -97,6 +97,9 @@ hr {			/* Taken from http://codepen.io/ibrahimjabbari/pen/ozinB*/
 	background-image: -ms-linear-gradient(left, #f0f0f0, #6a6a56, #f0f0f0);
 	background-image: -o-linear-gradient(left, #f0f0f0, #6a6a56, #f0f0f0);
 }
+header {
+	width: 100%;
+}
 
 /*MEDIA QUERIES*/
 /*Small Mobile Phones*/
