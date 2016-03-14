@@ -7,7 +7,7 @@ In this project you will find a link to my online resume, as well as links to my
 
 #####How to use
 - Open `index.html` in your browser.
-- You can also access using the following [URL](gabu-lartiga.github.io). But you will need internet conection
+- You can also access using the following [URL](http://gabu-lartiga.github.io). But you will need internet conection
 
 ###Spanish
 Este es un proyecto que hice para el *Nanodegree Front-end developer* de Udacity.
@@ -16,4 +16,4 @@ En este projecto podrán encontrar un link a mi curriculum online, como también
 
 #####Cómo usar
 - Abre `index.html` en tu explorador
-- También puedes acceder mediante el siguiente [URL](gabu-lartiga.github.io). Para lo cual necesitarás conexión a internet
+- También puedes acceder mediante el siguiente [URL](http://gabu-lartiga.github.io). Para lo cual necesitarás conexión a internet
