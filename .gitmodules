@@ -1,0 +1,3 @@
+[submodule "cam-mobile-portfolio"]
+	path = cam-mobile-portfolio
+	url = https://github.com/gabu-lartiga/cam-mobile-portfolio.git
