@@ -74,6 +74,9 @@ h4.works {
 }
 
 /*TAG CUSTOMIZATION*/
+a {
+	text-decoration:none;
+}
 img, object, video {
 	max-width: 100%;
 }
