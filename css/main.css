@@ -74,8 +74,12 @@ h4.works {
 }
 
 /*TAG CUSTOMIZATION*/
-a {
+a:link, a:visited {
 	text-decoration:none;
+}
+a:hover, a:active {
+	text-decoration:none;
+	color: orange;
 }
 img, object, video {
 	max-width: 100%;
